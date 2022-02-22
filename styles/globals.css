@@ -14,3 +14,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.bars {
+  display: flex;
+  flex-direction: row;
+  background-color: limegreen;
+  padding: 2rem;
+  gap: 2rem;
+  align-items: flex-end;
+}
+
+.bar {
+  background-color: red;
+}
